@@ -9,7 +9,7 @@ if (urutan != undefined || urutan != null) {
   }
   function rightarrowpressed() {
     let selanjutnya = urutan + 1;
-    if(selanjutnya > 13) location.href = "../";
+    if(selanjutnya > 7) location.href = "../";
     else location.href = "pertemuan" +selanjutnya +".html";
   }
   function KeyCheck(e) {
